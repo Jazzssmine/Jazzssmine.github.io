@@ -5,8 +5,8 @@ subtitle: 'A study in Maximizing an Original Post's Retweet Count'
 author: "CaffeineOverflow"
 header-style: text
 tags:
-  - Data Analysis
-  - Twitter
+  - Vim
+  - Emacs
 ---
 ![head](/images/head.jpeg)
 

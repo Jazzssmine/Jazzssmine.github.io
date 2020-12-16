@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "My Spacemacs Workflow"
-subtitle: 'From Vim to Spacemacs'
-author: "Hux"
+title: "Do you want to grab attentions on Twitter?"
+subtitle: 'A study in Maximizing an Original Post's Retweet Count'
+author: "CaffeineOverflow"
 header-style: text
 tags:
-  - Vim
-  - Emacs
+  - Data Analysis
+  - Twitter
 ---
 ![head](/images/head.jpeg)
 

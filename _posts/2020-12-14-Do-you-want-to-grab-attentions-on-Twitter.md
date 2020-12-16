@@ -2,9 +2,8 @@
 layout: post
 title: "Do you want to grab attentions on Twitter?"
 subtitle: 'A study in Maximizing an Original Post's Retweet Count'
-author: "Hux"
+author: "Wang"
 header-style: text
-
 ---
 ![head](/images/head.jpeg)
 

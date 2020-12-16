@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Do you want to grab attentions on Twitter?"
-subtitle: 'A study in Maximizing an Original Post's Retweet Count'
-author: "Wang"
+subtitle: 'Open file with terminal Vim from the macOS Finder'
+author: "Hux"
 header-style: text
+tags:
+  - Vim
 ---
 ![head](/images/head.jpeg)
 

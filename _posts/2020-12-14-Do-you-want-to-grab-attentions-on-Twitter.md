@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Do you want to grab attentions on Twitter?"
-subtitle: 'A study in Maximizing an Original Post's Retweet Count'
-author: "CaffeineOverflow"
+title: "My Spacemacs Workflow"
+subtitle: 'From Vim to Spacemacs'
+author: "Hux"
 header-style: text
 tags:
   - Vim

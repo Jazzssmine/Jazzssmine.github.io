@@ -1,7 +1,7 @@
 # Site settings
 title: Jasmine's Blog
 SEOTitle: Yian Wang | Jasmine
-header-img: images/head.jpeg
+header-img: images/bg.jpg
 email: jazzminewang@gmail.com
 description: "A blog about WANG"
 keyword: "No KeyWord"
@@ -70,7 +70,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: jazzssmin.me
+ga_domain: jazzssmine.github.io
 
 
 
@@ -99,12 +99,12 @@ page-mathjax: false
 
 
 # Friends
-friends: [
-    {
+#friends: [
+    #{
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    }
-]
+        #title: "乱序",
+        #href: "http://mida.re/"
+    #}
+#]

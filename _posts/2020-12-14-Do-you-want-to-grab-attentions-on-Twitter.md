@@ -4,9 +4,7 @@ title: "My Spacemacs Workflow"
 subtitle: 'From Vim to Spacemacs'
 author: "Hux"
 header-style: text
-tags:
-  - Vim
-  - Emacs
+
 ---
 ![head](/images/head.jpeg)
 
@@ -40,7 +38,7 @@ Based on the data available, here we mainly focus on **analyzing the factors tha
 
 That’s what this article is all about. We’ll show you what types of user and tweet that people pay attention to. Let's explore together!
 
-# data description
+# Data Description
 
 <i class="fas fa-cat"></i> EgoTimelines: The dataset contains ego users’ dynamic activities, including posting original tweets, retweeting, replying and @-mentioning. It also contains information about the number of retweets, presence of URLs and presence of hashtags for each tweet. The dataset is ideal to analyze the contributions of factors at the post level to the post’s influence.
 <center>
@@ -56,7 +54,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
 # What do we find?
 
-### User Perspective
+* User Perspective
 
   * **Be more interactive and get more followers and friends--Duh!**
 
@@ -99,7 +97,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   
 
-### Tweet Perspective
+* Tweet Perspective
 
 
 

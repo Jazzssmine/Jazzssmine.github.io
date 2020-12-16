@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My Spacemacs Workflow"
-subtitle: 'From Vim to Spacemacs'
+title: "Do you want to grab attentions on Twitter?"
+subtitle: 'A study in Maximizing an Original Post's Retweet Count'
 author: "Hux"
 header-style: text
 
@@ -87,6 +87,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   * **What language do you speak?**
 
+    {% include newpie.html%}
     Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
     
     The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.

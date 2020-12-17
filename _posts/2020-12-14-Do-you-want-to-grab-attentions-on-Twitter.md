@@ -55,14 +55,16 @@ That’s what this article is all about. We’ll show you what types of user and
 
 # What do we find?
 
+The problem is two-fold. We first explore it from a user perspective -- how does the user profile affect the influence and then from a tweet perspective -- how does the textual content of tweets affect the influence.
+
 * <font size=5> User Perspective </font>
 
-	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
-	<figure class="third">
-		<img src="/images/followers-retweet.svg" width="500"/><img src="/images/followees-retweet.svg" width="500"/><img src="/images/friends-retweet.svg" width="500"/>
-	</figure>
+  First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+  <figure class="third">
+    <img src="/images/followers-retweet.svg" width="500"/><img src="/images/followees-retweet.svg" width="500"/><img src="/images/friends-retweet.svg" width="500"/>
+  </figure>
 	
-	<center><font size=4>So what can we learn from above figures?</font></center>
+  <center><font size=4>So what can we learn from above figures?</font></center>
 	
   * **Be more interactive and get more followers and friends--Duh!**
 
@@ -101,7 +103,7 @@ That’s what this article is all about. We’ll show you what types of user and
 	- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
 	- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
 	
-    But let's don't jump into the conclusion. Let's take a closer look! - Distribution should be more precise than a summary statistic.
+    But let's not jump into the conclusion. Let's take a closer look! - Distribution should be more precise than a summary statistic.
     
     <center>    <img src="/images/specificLanguages.svg" width = "900" />    </center>
     

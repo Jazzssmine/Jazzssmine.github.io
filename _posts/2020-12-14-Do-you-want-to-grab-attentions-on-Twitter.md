@@ -81,7 +81,7 @@ That’s what this article is all about. We’ll show you what types of user and
     2. user 17159 - a user just like us! - with only one follower. But how come she manages to have so mant retweets, even more than those of user 18670?
 
 
-    <center class="half"> <img src="/images/user_18669.png" width = "450" height = "300"/><img src="/images/user_17159.png" width = "450" height = "300"/></center>
+    <center> <img src="/images/2users.png" width = "900" height = "600"/></center>
 
 
     From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more!

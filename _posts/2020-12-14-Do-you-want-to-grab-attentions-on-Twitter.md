@@ -56,12 +56,15 @@ That’s what this article is all about. We’ll show you what types of user and
 # What do we find?
 
 * <font size=5> User Perspective </font>
+  End in nature, therefore, is a subjective or problematic conception, implying the limits of understanding, and consequently resting upon the idea of an understanding constituted unlike ours - of an intuitive understanding in which particular and universal should be given together.
 
   * **Be more interactive and get more followers and friends--Duh!**
 
     <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
 
-      {% include retweet_feature.html %}
+    <center> {% include retweet_feature.html %}</center>
+    <center> {% include retweet_followee.html %}</center>
+    <center> {% include retweet_friend.html %}</center>
     
     We noticed that as the number of followers/followees/friends increases (from the first row to the fifth row), the probability of receiving more retweets increases, that is, the plot gets "fatter". **Especially when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 

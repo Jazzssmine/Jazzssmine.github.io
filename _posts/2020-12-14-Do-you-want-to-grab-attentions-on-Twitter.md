@@ -64,11 +64,11 @@ That’s what this article is all about. We’ll show you what types of user and
 	
 	<center><font size=4>So what can we learn from above figures?</font></center>
 	
-  * <font size=4> **Be more interactive and get more followers and friends--Duh!** </font>
+  *  **<font size=4>Be more interactive and get more followers and friends--Duh!</font>** 
 
     Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
     
-    <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
+    <center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
 
     The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
@@ -97,6 +97,13 @@ That’s what this article is all about. We’ll show you what types of user and
 
     <center> <img src="/images/chart.png" width = "600" height = "400"/></center>
     Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+	- group1 (high retweets | follwers | followees count): Arabic speakers 
+	- group2 (high retweets | statuses; low followers | followees count): Dutch speaker, and Japanese speakers
+	- group3 (low retweets | statuses; high followers | followees count): Turkish, Russian and German speakers
+	
+    But let's don't jump into the conclusion. Let's take a closer look! - Distribution should be more precise than a summary statistic.
+    
+    <center>    <img src="/images/languages.svg" width = "900" />    </center>
     
     The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 

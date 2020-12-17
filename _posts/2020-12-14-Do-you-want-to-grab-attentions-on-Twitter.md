@@ -2,7 +2,7 @@
 layout: post
 title: "Do you want to grab attentions on Twitter?"
 subtitle: 'Open file with terminal Vim from the macOS Finder'
-author: "Hux"
+author: "CaffeineOverflow"
 header-style: text
 tags:
   - Vim

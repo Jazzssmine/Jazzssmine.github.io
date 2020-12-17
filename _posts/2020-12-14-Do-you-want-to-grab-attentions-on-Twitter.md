@@ -91,7 +91,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     <center> <img src="/images/user18670andUser17159.svg" width = "900" height = "600"/></center>
 
 
-    From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more!
+    From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
     
     <center>    <img src="/images/hashtag.png" width = "600" height = "300"/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hashtags are laser pointers that shine on folks serious about a topic.</div> </center>
 

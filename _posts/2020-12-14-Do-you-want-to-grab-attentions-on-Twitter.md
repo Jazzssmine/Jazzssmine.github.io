@@ -35,9 +35,7 @@ Twitter, as an online social media platform, is a place where we relax ourselves
 
 # What problems do we hope to solve?
 
-Based on the data available, here we mainly focus on **analyzing the factors that covary with the original post's retweet count**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. 
-
-However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, is the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered when is the best to post? 
+Based on the data available, here we mainly focus on **analyzing the factors that covary with the original post's retweet count**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, is the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered what is the best time to post? 
 
 That’s what this article is all about. We’ll show you what types of user and tweet that people pay attention to. Let's explore together!
 

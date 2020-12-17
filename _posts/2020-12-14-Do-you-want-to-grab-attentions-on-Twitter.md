@@ -56,7 +56,11 @@ That’s what this article is all about. We’ll show you what types of user and
 # What do we find?
 
 * <font size=5> User Perspective </font>
-  End in nature, therefore, is a subjective or problematic conception, implying the limits of understanding, and consequently resting upon the idea of an understanding constituted unlike ours - of an intuitive understanding in which particular and universal should be given together.
+
+	First, an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+  	{% include retweet_feature.html %}
+  	{% include retweet_followee.html %}
+  	{% include retweet_friend.html %}
 
   * **Be more interactive and get more followers and friends--Duh!**
 

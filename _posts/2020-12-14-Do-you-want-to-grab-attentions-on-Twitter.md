@@ -60,9 +60,9 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 * <font size=5> User Perspective </font>
 
   First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
-  <figure class="third">
+  <center class="third">
     <img src="/images/followers-retweet.svg" width="200"/><img src="/images/followees-retweet.svg" width="200"/><img src="/images/friends-retweet.svg" width="200"/>
-  </figure>
+  </center>
 	
   <center><font size=4>So what can we learn from above figures?</font></center>
 	

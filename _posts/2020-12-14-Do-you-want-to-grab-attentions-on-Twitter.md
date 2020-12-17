@@ -57,20 +57,20 @@ That’s what this article is all about. We’ll show you what types of user and
 
 * <font size=5> User Perspective </font>
 
-	First, an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
   	{% include retweet_feature.html %}
   	{% include retweet_followee.html %}
   	{% include retweet_friend.html %}
 
+	So with these information, what are our solutions to increasing the influences?
+	
   * **Be more interactive and get more followers and friends--Duh!**
 
-    <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
-
-    <center> {% include retweet_feature.html %}</center>
-    <center> {% include retweet_followee.html %}</center>
-    <center> {% include retweet_friend.html %}</center>
+    Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further， we studied the retweet distribution in different groups of followers/followees/friends count
     
-    We noticed that as the number of followers/followees/friends increases (from the first row to the fifth row), the probability of receiving more retweets increases, that is, the plot gets "fatter". **Especially when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
+    <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
+    
+    It's clear that as the number of followers/followees/friends increases (from the first row to the fifth row), the probability of receiving more retweets increases,**especially when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 
     The result is intuitively true since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going. 
 

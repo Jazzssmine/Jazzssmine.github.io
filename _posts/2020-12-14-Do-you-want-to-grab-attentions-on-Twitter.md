@@ -87,7 +87,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   * **What language do you speak?**
 
-    <center> <img src="/images/chart.png" width = "450" height = "300"/></center>
+    <center> <img src="/images/chart.png" width = "600" height = "400"/></center>
     Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
     
     The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.

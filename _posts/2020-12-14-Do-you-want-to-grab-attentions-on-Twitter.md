@@ -97,9 +97,9 @@ That’s what this article is all about. We’ll show you what types of user and
 
     <center> <img src="/images/languages.svg" width = "600" height = "400"/></center>
     Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
-	- group1 (high retweets / follwers / followees count): Arabic speakers 
-	- group2 (high retweets / statuses; low followers / followees count): Dutch speaker, and Japanese speakers
-	- group3 (low retweets / statuses; high followers / followees count): Turkish, Russian and German speakers
+	- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
+	- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
+	- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
 	
     But let's don't jump into the conclusion. Let's take a closer look! - Distribution should be more precise than a summary statistic.
     

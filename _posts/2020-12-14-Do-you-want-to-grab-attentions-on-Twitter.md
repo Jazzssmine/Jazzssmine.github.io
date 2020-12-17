@@ -58,10 +58,6 @@ That’s what this article is all about. We’ll show you what types of user and
 * <font size=5> User Perspective </font>
 
 	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
-  	{% include retweet_feature.html %}
-  	{% include retweet_followee.html %}
-  	{% include retweet_friend.html %}
-
 	<figure class="third">
 		<img src="/images/followers-retweet.svg" width="200"/><img src="followees-retweet.svg" width="200"/><img src="friends-retweet.svg" width="200"/>
 	</figure>
@@ -73,7 +69,7 @@ That’s what this article is all about. We’ll show you what types of user and
     
     <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
 
-    The result is intuitively true since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going. 
+    The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
     <center> <img src="/images/collinearity_between_factors.png" width = "900" height = "600"/></center>
 
@@ -81,7 +77,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   * **Always post with hashtags**--**Join trending hashtags on Twitter**
 
-    So of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get moethan 100 followers when they only get less than 10 now? Here, we pick two users who are representative. 
+    So of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 now? Here, we pick two users who are representative. 
 
     <center> <img src="/images/super.png" width = "900" height = "600"/></center>
 

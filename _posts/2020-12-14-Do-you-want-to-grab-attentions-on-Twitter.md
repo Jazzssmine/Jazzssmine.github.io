@@ -61,7 +61,8 @@ That’s what this article is all about. We’ll show you what types of user and
 	<figure class="third">
 		<img src="/images/followers-retweet.svg" width="500"/><img src="/images/followees-retweet.svg" width="500"/><img src="/images/friends-retweet.svg" width="500"/>
 	</figure>
-	So what can we learn from above figures?
+	
+	<center><font size=4>So what can we learn from above figures?</font></center>
 	
   * **Be more interactive and get more followers and friends--Duh!**
 

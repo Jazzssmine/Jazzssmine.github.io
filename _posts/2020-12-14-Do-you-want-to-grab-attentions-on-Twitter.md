@@ -64,7 +64,7 @@ That’s what this article is all about. We’ll show you what types of user and
 	
 	<center><font size=4>So what can we learn from above figures?</font></center>
 	
-  * **Be more interactive and get more followers and friends--Duh!**
+  * <font size=4> **Be more interactive and get more followers and friends--Duh!** </font>
 
     Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
     

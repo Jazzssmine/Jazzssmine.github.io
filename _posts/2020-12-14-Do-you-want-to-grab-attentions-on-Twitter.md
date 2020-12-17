@@ -74,7 +74,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
     The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
-    <center> <img src="/images/collinearity_between_factors.png" width = "900" height = "600"/></center>
+    <center> <img src="/images/collinearity.png" width = "900" height = "600"/></center>
 
     Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have only a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
 

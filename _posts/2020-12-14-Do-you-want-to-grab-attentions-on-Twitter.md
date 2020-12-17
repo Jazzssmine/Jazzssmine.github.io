@@ -4,8 +4,8 @@ title: "Do you want to grab attentions on Twitter?"
 author: "CaffeineOverflow"
 header-style: text
 tags:
-  - Vim
   - Twitter
+  - Data Analysis
 ---
 ![head](/images/head.jpeg)
 

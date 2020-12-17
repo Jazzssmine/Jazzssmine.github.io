@@ -63,6 +63,8 @@ That’s what this article is all about. We’ll show you what types of user and
 
     <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
 
+    {% include retweet_feature.html %}
+    
     We noticed that as the number of followers/followees/friends increases (from the first row to the fifth row), the probability of receiving more retweets increases, that is, the plot gets "fatter". **Especially when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 
     The result is intuitively true since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going. 

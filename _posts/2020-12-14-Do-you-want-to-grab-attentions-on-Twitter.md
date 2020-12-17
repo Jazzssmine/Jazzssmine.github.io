@@ -59,7 +59,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
 	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
 	<figure class="third">
-		<img src="/images/followers-retweet.svg" width="200"/><img src="followees-retweet.svg" width="200"/><img src="friends-retweet.svg" width="200"/>
+		<img src="/images/followers-retweet.svg" width="500"/><img src="/images/followees-retweet.svg" width="500"/><img src="/images/friends-retweet.svg" width="500"/>
 	</figure>
 	So what can we learn from above figures?
 	

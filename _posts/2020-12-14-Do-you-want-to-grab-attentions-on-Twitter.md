@@ -62,15 +62,16 @@ That’s what this article is all about. We’ll show you what types of user and
   	{% include retweet_followee.html %}
   	{% include retweet_friend.html %}
 
-	So with these information, what are our solutions to increasing the influences?
+	<figure class="third">
+		<img src="/images/followers-retweet.svg" width="200"/><img src="followees-retweet.svg" width="200"/><img src="friends-retweet.svg" width="200"/>
+	</figure>
+	So what can we learn from above figures?
 	
   * **Be more interactive and get more followers and friends--Duh!**
 
-    Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further， we studied the retweet distribution in different groups of followers/followees/friends count
+    Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
     
     <center> <img src="/images/distribution_retweet.png" width = "900" height = "600"/></center>
-    
-    It's clear that as the number of followers/followees/friends increases (from the first row to the fifth row), the probability of receiving more retweets increases,**especially when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 
     The result is intuitively true since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going. 
 
@@ -80,7 +81,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   * **Always post with hashtags**--**Join trending hashtags on Twitter**
 
-    For most of the tweets, their average numbers of retweet count are quite small and thus it's hard to analyse the effect of Hashtag in a collective way. Here, we pick two users who are representative. 
+    So of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get moethan 100 followers when they only get less than 10 now? Here, we pick two users who are representative. 
 
     <center> <img src="/images/super.png" width = "900" height = "600"/></center>
 

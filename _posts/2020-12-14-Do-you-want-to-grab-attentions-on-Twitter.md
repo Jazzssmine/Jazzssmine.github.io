@@ -19,7 +19,7 @@ tags:
 
 # Why are we interested?
 
-Twitter is a place where we relax ourselves, interact with others and know what’s happening around the world. Also, over the past few years, it has been a distinct social medium where the president of the United States communicates with the public.  An influencer is someone with millions of followers and a global presence. These days, Twitter has become more and more powerful as a social tool for all kinds of people. However, on Twitter, you are only one user among millions, and getting attention can be difficult. So what intrigues us the most is how can we establish a tweet, what kind of strategy can help us to **get more attention and gain more retweets**?
+Twitter, as an online social media platform, is a place where we relax ourselves, interact with others and know what’s happening around the world. Also, over the past few years, it has been a distinct social medium where the president of the United States communicates with the public.  These days, Twitter has become more and more powerful as a social tool for all kinds of people. And naturally, we’d like to figure out what we can do to make a tweet seen by more people and to gain more interactions, and thus to make ourselves more influential. However, on Twitter, you are only one user among millions, and getting attention can be difficult. So what intrigues us the most is how can we establish a tweet, what kind of strategy can help us to **get more attention and gain more retweets**?
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -35,7 +35,9 @@ Twitter is a place where we relax ourselves, interact with others and know what�
 
 # What problems do we hope to solve?
 
-Based on the data available, here we mainly focus on **analyzing the factors that covary with the original post's retweet count**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, is the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered when is the best to post? 
+Based on the data available, here we mainly focus on **analyzing the factors that covary with the original post's retweet count**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. 
+
+However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, is the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered when is the best to post? 
 
 That’s what this article is all about. We’ll show you what types of user and tweet that people pay attention to. Let's explore together!
 
@@ -55,7 +57,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
 # What do we find?
 
-* User Perspective
+* <font size=5> User Perspective </font>
 
   * **Be more interactive and get more followers and friends--Duh!**
 
@@ -99,7 +101,7 @@ That’s what this article is all about. We’ll show you what types of user and
 
   
 
-* Tweet Perspective
+* <font size=5> Tweet Perspective </font>
 
 
 

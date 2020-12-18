@@ -42,16 +42,11 @@ That’s what this article is all about. We’ll show you what types of user and
 # Data Description
 
 **EgoTimelines:** The dataset contains ego users’ dynamic activities, including posting original tweets, retweeting, replying and @-mentioning. It also contains information about the number of retweets, presence of URLs and presence of hashtags for each tweet. The dataset is ideal to analyze the contributions of factors at the post level to the post’s influence.
-<center>
-	<img src="/images/timeline.png" width = "800" height = "200" />
-</center>
 
-**EgoAlterProfiles:** The dataset contains sampled users profiles, including the number of followers, languages, account created time, etc. Combined with the “retweet_count” term in EgoTimelines dataset we can analyze the effect of the number of followers and language (factors on the user level) on the post’s influence. For this dataset, we first filter out the profiles which are not egos, then count the follower numbers for each user:![ego_profile](/images/ego_profile.png) 
+**EgoAlterProfiles:** The dataset contains sampled users profiles, including the number of followers, languages, account created time, etc. Combined with the “retweet_count” term in EgoTimelines dataset we can analyze the effect of the number of followers and language (factors on the user level) on the post’s influence. For this dataset, we first filter out the profiles which are not egos, then count the follower numbers for each user.
 
 **EgoNetwork:** This dataset contains all pairs of ego-alter relationships, where the number of followees for each ego users can be calculated and further analyzed.
-<center>
-	<img src="/images/egonetwork.png" style="zoom:70%;" />
-</center>
+
 
 # What do we find?
 
@@ -184,9 +179,13 @@ Based on the analysis above, we reach several simple and straightforward conclus
 - Retweet your own tweets 📱
 
 - Time matters! 🕙
+
 - Don't forget to tweet during holidays! 🎄
 
-# What have we learnt?
+
+
+<center><font color=grey size=8>What are you waiting for?</font></center><center><img src="/images/twitter.png" /></center>
+
 
 
 

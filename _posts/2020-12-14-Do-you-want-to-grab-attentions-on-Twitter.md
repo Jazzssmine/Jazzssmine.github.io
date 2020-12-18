@@ -120,6 +120,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 * <font size=5> Tweet Perspective </font>
 
+{% include lineplot.html %}
 
 
 # What have we learnt?

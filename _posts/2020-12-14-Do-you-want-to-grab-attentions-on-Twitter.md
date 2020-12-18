@@ -149,7 +149,6 @@ Now let's move from user perspective to tweet perspective.
   - Days & Hours
 
     Now Let's check out how tweeting time(hour and day of the week) effects the number of retweets. 
-    <center>    <img src="/images/hour_week_trend.svg" height = "200" />    </center>
 
 {% include most_tweeted.html %}
 

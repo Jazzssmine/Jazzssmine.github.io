@@ -144,15 +144,15 @@ We can see that most retweets are tweeted from users other than egos, which make
 
 - **How does time affect the number of retweets?**
 
-  Before checking out how tweeting time effects the retweet_count, let's first check out how Twitter usage changes according to time. The orignial paper examined the circadian rhythm of the day and week. So here, we examine the rhythm of the year. According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, and we can see the same trend in number of users.  Why is that? 
+  Before checking out how tweeting time effects the retweet_count, let's first check out how Twitter usage changes according to time. The orignial paper examined the circadian rhythm of the day and week. So here, we examine the rhythm of the year.
 
     <center>    <img src="/images/4types.jpg" width = "900" />    </center>
 
-  To eliminate possible errors, we then include year in the plot this time.
+   According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, and we can see the same trend in number of users.  Why is that? Maybe we can check on the whole dataset. Since we may get wrong month due to a lack of utc_offset. To eliminate these possible errors, we then include year in the plot this time.
 
   <center>    <img src="/images/usage_year.png" width = "900" />    </center>
 
-  Ah-hah, it turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
+  Ah-hah! It turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
 
 - **Do holidays matter?**
 

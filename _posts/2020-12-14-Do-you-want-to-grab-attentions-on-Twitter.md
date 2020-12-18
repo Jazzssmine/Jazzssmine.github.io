@@ -108,7 +108,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     
     <center>    <img src="/images/language_dist.png" width = "1200" />    </center>
     
-    According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns:
+    According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
     
     * The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 

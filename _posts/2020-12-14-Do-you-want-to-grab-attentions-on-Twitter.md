@@ -124,7 +124,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 
 
-{% include lineplotusers %}
+{% include lineplotusers.html %}
 
 
 # What have we learnt?

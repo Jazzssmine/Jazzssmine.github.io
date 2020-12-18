@@ -169,7 +169,7 @@ Now let's move from user perspective to tweet perspective.
 
 
 
-# What to do now? <img src="/images/twitter.png" alt="twitter" style="zoom:0.5%;" /> 
+# What to do now? 
 Based on the analysis above, we reach several simple and straightforward conclusions:
 
 - Get more followers 👯

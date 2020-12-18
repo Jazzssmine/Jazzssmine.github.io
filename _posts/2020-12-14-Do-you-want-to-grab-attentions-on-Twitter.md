@@ -163,7 +163,7 @@ Now let's move from user perspective to tweet perspective.
 
   During holidays, people usually have more free time to relax themselves and a guess is that we can gain more retweets during this time. As Christmas is the most widely celebrated holiday in the world, we start exploring how much effect that Xmas has on the number of retweets. Here we only keep counties where Christmas is a national public holiday. 
 
-  And our guess is validated, the average number of retweets clearly peaked on Christmas eve! So if you want to get more attentions, it's a good time to tweet during Christmas! 🎄
+  And our guess is validated, the average number of retweets clearly peaked on Christmas eve! So if you want to get more attentions, it's a good time to tweet on Christmas Eve! 🎄
 
 {% include xmas.html %}
 

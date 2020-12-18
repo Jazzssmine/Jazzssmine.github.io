@@ -151,7 +151,7 @@ Now let's move from user perspective to tweet perspective.
 
     Now Let's check out how tweeting time(hour and day of the week) effects the number of retweets. 
 
-    ![day](/Users/wangyian/Documents/GitHub/Jazzssmine.github.io/images/day.jpg)
+    ![day](/images/day.jpg)
 
     From the above figure, we can tell that the number of most retweeted origianl tweets and replies don't follow the general trend to increase from 5-11h and 12-21h. instead, most of these tweets are posted at 10 a.m. And those posted at 9-11 a.m. received more retweets. The subplot at left_bottom is a line at value 0. This is because the 25th, 50th, and 75th quantile of retweet_count for all these tweets are 0 at every hour every day of the week.
 

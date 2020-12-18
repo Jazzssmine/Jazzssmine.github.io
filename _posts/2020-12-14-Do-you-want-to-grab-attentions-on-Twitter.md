@@ -59,28 +59,29 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 <font size=5> I. User Perspective </font>
 
-​	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+
 <center class="third">
 	<img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
 </center>
 
-​	So what can we learn from above figures?
+So what can we learn from above figures?
 
-​	**1. Be more interactive and get more followers and friends--Duh!**
+**1. Be more interactive and get more followers and friends--Duh!**
 
-​	Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
+Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 
 <center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
 
-​	The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
+The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
 <center> <img src="/images/colinearity.svg" width = "1200"/></center>
 
-​	Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
+Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
 
-​	**2. Always post with hashtags**--**Join trending hashtags on Twitter**
+**2. Always post with hashtags**--**Join trending hashtags on Twitter**
 
-​	Of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 for now? Here, we pick two users who are representative. 
+Of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 for now? Here, we pick two users who are representative. 
 
 <center> <img src="/images/super.png" width = "900" height = "600"/></center>
 
@@ -90,21 +91,17 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 <center> <img src="/images/user18670andUser17159.svg" width = "900" height = "600"/></center>
 
-​	As shown in the figure, both user 17159 and user 18670 gain more retweets when using hastags. And although having less followers, user 17159 can get a fairly large amount of retweets when including hashtags in the tweets.
+As shown in the figure, both user 17159 and user 18670 gain more retweets when using hastags. And although having less followers, user 17159 can get a fairly large amount of retweets when including hashtags in the tweets.
 
-​	From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
+From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
 
 <center>    <img src="/images/hashtag.png" width = "600" height = "300"/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hashtags are laser pointers that shine on folks serious about a topic.</div> </center>
 
-​	**3.What language do you speak?**
+**3.What language do you speak?**
 
-​	{% include lang.html %}
+​							{% include language.html %}
 
-<center> <img src="/images/lang_stat.png" width = "900"/></center>	
-
-
-
-​	Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
   - group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
   - group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
   - group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
@@ -113,7 +110,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 <center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
 
-​	According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
+According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
 
 * The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 
@@ -125,17 +122,18 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 <font size=5> II. Tweet Perspective </font>
 
-​	Now we move from 
+Now we move from user perspective to tweet perspective. 
 
-​	{% include lineplot.html %}
+1. What type of tweets get the most attentions?
+2. 
+
+{% include lineplot.html %}
 
 
 
-​	{% include lineplotusers.html %}
+{% include lineplotusers.html %}
 
   <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
-
-​	test text
 
 # What have we learnt?
 

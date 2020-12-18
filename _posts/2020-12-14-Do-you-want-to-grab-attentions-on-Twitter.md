@@ -143,7 +143,7 @@ Now let's move from user perspective to tweet perspective.
 
     First we want to check out how the number of retweets grow with the year.
 
-    <center>    <img src="/images/overall_trend.svg" width = "600" height = "400"/>    </center>
+    <center>    <img src="/images/overall_trend.svg" width = "800" height = "400"/>    </center>
 
     Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing in the number of users. So now it's the best time for you to tweet! 
 

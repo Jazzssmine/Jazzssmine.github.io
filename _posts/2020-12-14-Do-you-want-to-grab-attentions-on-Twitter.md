@@ -131,25 +131,36 @@ Now let's move from user perspective to tweet perspective.
 
 - **What type of tweets get the most attentions?**
 
+  Here we categorise tweets into 4 types: 
+
+  - Original tweets
+  - Replies of tweets
+  - Retweets of non-egos' tweets
+  - Retweets of egos' tweets
+
     <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
+
+  - We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
 
 - **How does time affect the number of retweets?**
 
-  According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, Why is that? Maybe we can check on the whole dataset. Since the possibilty to get wrong month due to utc_offset is not so great.
-
-  Include year in the plot this time, maybe not all years have the same pattern.
+  Before checking out how tweeting time effects the retweet_count, let's first check out how Twitter usage changes according to time. The orignial paper examined the circadian rhythm of the day and week. So here, we examine the rhythm of the year. According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, and we can see the same trend in number of users.  Why is that? 
 
 {% include lineplot.html %}
 
 {% include lineplotusers.html %}
 
+To eliminate possible errors, we then include year in the plot this time.
 
+  <center>    <img src="/images/usage_year.png" width = "1200" />    </center>
+
+Ah-hah, it turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
 
 - **Do holidays matter?**
 
+  The average number of retweets clearly peaked on Christmas eve, maybe a good time to tweet!
 
-
-
+{% include xmas.html %}
 
 
 

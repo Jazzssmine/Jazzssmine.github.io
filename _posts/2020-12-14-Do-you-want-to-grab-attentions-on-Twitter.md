@@ -159,9 +159,9 @@ From the above figure, we can tell that the number of most retweeted origianl tw
 
 Also, based on our study in regression analysis, we notice that for hour 9 and 10, there's small but siginficant postive correlation with retweet count, suggesting that you can try tweeting at 9 or 10 a.m.
 
-{% include u18670.html %}
-
 Due to a lack of data to train a decent classifier, instead of propensity score matching，we found some users to examine if the time of posting influences the retweet count. Here, we pick user 18670. Based on the violin plot below, we find that though user 18670 tweeted very often during the peak hours, the time of the tweet doesn't show effect on the number of retweets he/she gets. So when you already have a lot followers, tweet whenever you want?
+
+{% include u18670.html %}
 
 - **Do holidays matter?**
 

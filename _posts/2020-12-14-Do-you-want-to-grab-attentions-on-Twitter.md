@@ -109,6 +109,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     <center>    <img src="/images/specificLanguages.svg" width = "900" />    </center>
     
     According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns:
+    
     The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 
     The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, **if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!**

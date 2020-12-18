@@ -35,7 +35,7 @@ Twitter, as an online social media platform, is a place where we relax ourselves
 
 # What problems do we hope to solve?
 
-Based on the data available, here we mainly focus on **analyzing the factors that covary with the original post's retweet count**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, is the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered what is the best time to post? 
+Based on the data available, here we mainly focus on **analyzing the factors that covary with the number of original post's retweet**. In the original paper *Testing Propositions Derived from Twitter Studies: Generalization and Replication in Computational Social Science* by Hai Liang et al, they analyzed information diffusion at user and tweet level. However, the results only tell us whether multiple factors are positively or negatively correlated. We still have little idea of how exactly are they correlated: for example, does the retweet count linearly increase with the number of followers? Is there certain "threshold effect"? Also, have you ever wondered what is the best time to post? 
 
 That’s what this article is all about. We’ll show you what types of user and tweet that people pay attention to. Let's explore together!
 
@@ -76,11 +76,11 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
     <center> <img src="/images/colinearity.svg" width = "1200"/></center>
 
-    Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have only a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
+    Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
 
   * **Always post with hashtags**--**Join trending hashtags on Twitter**
 
-    So of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 now? Here, we pick two users who are representative. 
+    Of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 for now? Here, we pick two users who are representative. 
 
     <center> <img src="/images/super.png" width = "900" height = "600"/></center>
 
@@ -89,7 +89,8 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 
     <center> <img src="/images/user18670andUser17159.svg" width = "900" height = "600"/></center>
-
+    
+    As shown in the figure, both user 17159 and user 18670 gain more retweets when using hastags. And although having less followers, user 17159 can get a fairly large amount of retweets when including hashtags in the tweets.
 
     From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
     
@@ -103,7 +104,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 	- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
 	- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
 	
-    But let's not jump into the conclusion. Let's take a closer look! - Distribution should be more precise than a summary statistic.
+    But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
     
     <center>    <img src="/images/specificLanguages.svg" width = "900" />    </center>
     

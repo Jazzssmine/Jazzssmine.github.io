@@ -99,7 +99,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
   * **What language do you speak?**
 
     <center> <img src="/images/lang_stat.png" width = "900"/></center>
-    Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+    Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
 	- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
 	- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
 	- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
@@ -108,11 +108,12 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     
     <center>    <img src="/images/specificLanguages.svg" width = "900" />    </center>
     
+    According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns:
     The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 
-    The actives: Dutch speaker, and japanese speakers share a common point: they more like to retweet even though they don’t necessarily have a high number of followers count. Which may be explained as they really focus on their favorite followers and keep interacting with them rather than follow many people but remain inactive. Therefore, **if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!**
+    The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, **if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!**
     
-    The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But in the same time they have a low retweet frequqncy, which could be explained as they are more cautious about retweeting what others say. Therefore, **if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.** :P
+    The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But at the same time they have a low retweet frequqncy, which could be explained as they are more cautious about spreading others' words. Therefore, **if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.** :P
 
   
 

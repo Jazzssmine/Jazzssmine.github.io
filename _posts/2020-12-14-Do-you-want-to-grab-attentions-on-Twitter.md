@@ -140,7 +140,7 @@ Now let's move from user perspective to tweet perspective.
 
     <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
 
-  - We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
+  We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
 
 - **How does time affect the number of retweets?**
 
@@ -158,7 +158,9 @@ Ah-hah, it turns out that there are more tweets in 2014 than other years. But th
 
 - **Do holidays matter?**
 
-  The average number of retweets clearly peaked on Christmas eve, maybe a good time to tweet!
+  During holidays, people usually have more free time to relax themselves and a valid guess is that we can gain more retweets during this time. As Christmas is the most widely celebrated holiday in the world, we start exploring how much effect that Xmas has on the number of retweets. Here we keep counties where Christmas is a national public holiday. (en en-gb es fr nl pt)
+
+  And our guess is validated, the average number of retweets clearly peaked on Christmas eve! So when celebrating with your family, don't forget to tweet! 🎄
 
 {% include xmas.html %}
 

@@ -133,8 +133,7 @@ Now let's move from user perspective to tweet perspective.
   - Retweets of non-egos' tweets
   - Retweets of egos' tweets
   
-  We can see that most retweets are tweeted from other users rather than egos, which makes sense since egos are only small parts of the whole population. Besides, we can see only a small fraction of tweets are retweeted, so don't pressure yourself. Even if you only got one retweet,  it's still better than most of the tweets!.
-
+  We can see that most retweets are tweeted from other users rather than egos, which makes sense since egos are only small parts of the whole population. Besides, an obvious observation is that compared to original tweets, retweets of tweets gain more attentions. But keep in mind that only a small fraction of tweets are retweeted, so don't pressure yourself. Even if you only got one retweet,  it's still better than most of the tweets!
 {% include sboxplot.html %}
 
 - **How does time affect the number of retweets?**
@@ -143,9 +142,9 @@ Now let's move from user perspective to tweet perspective.
 
     First we want to check out how the number of retweets grow with the year.
 
-    <center>    <img src="/images/overall_trend.svg" width = "800" />    </center>
+    <center>    <img src="/images/overall_trend.svg" width = "500" />    </center>
 
-    Ah-hah! It turns out that there are more retweets in 2014 than other years, which is probably due to an increasing in the number of users. 
+    Ah-hah! It turns out that there are more retweets in 2014 than other years, which is probably due to an increase in the number of users. 
 
   - Days & Hours
 

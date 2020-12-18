@@ -106,7 +106,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 	
     But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
     
-    <center>    <img src="/images/language_dist.png" width = "1200" />    </center>
+    <center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
     
     According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
     

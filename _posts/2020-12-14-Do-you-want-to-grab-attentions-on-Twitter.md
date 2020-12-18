@@ -97,7 +97,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     <center>    <img src="/images/hashtag.png" width = "600" height = "300"/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hashtags are laser pointers that shine on folks serious about a topic.</div> </center>
 
   * **What language do you speak?**
-
+{% include lang.html %}
     <center> <img src="/images/lang_stat.png" width = "900"/></center>
     Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
 	- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 

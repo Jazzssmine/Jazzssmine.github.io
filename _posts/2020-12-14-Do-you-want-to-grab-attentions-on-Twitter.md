@@ -64,19 +64,19 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 		<img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
 	</center>
 	
-	<font size=6>So what can we learn from above figures?</font>
+	So what can we learn from above figures?
 	
 	* **Be more interactive and get more followers and friends--Duh!**
 
-	Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
+	 Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
     
-    	<center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
+    	 <center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
 
-	The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
+	 The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
-    	<center> <img src="/images/colinearity.svg" width = "1200"/></center>
+    	 <center> <img src="/images/colinearity.svg" width = "1200"/></center>
 
-	Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
+	 Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
 
 	* **Always post with hashtags**--**Join trending hashtags on Twitter**
 

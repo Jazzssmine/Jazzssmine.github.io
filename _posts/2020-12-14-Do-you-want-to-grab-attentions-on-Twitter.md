@@ -146,15 +146,13 @@ We can see that most retweets are tweeted from users other than egos, which make
 
   Before checking out how tweeting time effects the retweet_count, let's first check out how Twitter usage changes according to time. The orignial paper examined the circadian rhythm of the day and week. So here, we examine the rhythm of the year. According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, and we can see the same trend in number of users.  Why is that? 
 
-{% include lineplot.html %}
+    <center>    <img src="/images/4types.jpg" width = "900" />    </center>
 
-{% include lineplotusers.html %}
-
-To eliminate possible errors, we then include year in the plot this time.
+  To eliminate possible errors, we then include year in the plot this time.
 
   <center>    <img src="/images/usage_year.png" width = "900" />    </center>
 
-Ah-hah, it turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
+  Ah-hah, it turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
 
 - **Do holidays matter?**
 
@@ -170,7 +168,7 @@ Ah-hah, it turns out that there are more tweets in 2014 than other years. But th
 
 # What to do now?
 
-Based on the analysis above, we gain simple and straightforward conclusions:
+Based on the analysis above, we reach several simple and straightforward conclusions:
 
 - Get more followers
 - Use hashtags 

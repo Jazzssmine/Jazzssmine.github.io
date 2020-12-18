@@ -155,10 +155,10 @@ Now let's move from user perspective to tweet perspective.
     From the above figure, we can tell that the number of most retweeted origianl tweets and replies don't follow the general trend to increase from 5-11h and 12-21h. instead, most of these tweets are posted at 10 a.m. And those posted at 9-11 a.m. received more retweets. The subplot at left_bottom is a line at value 0. This is because the 25th, 50th, and 75th quantile of retweet_count for all these tweets are 0 at every hour every day of the week.
 
     Also, based on our study in regression analysis, we notice that for hour 9 and 10, there's small but siginficant postive correlation with retweet count, suggesting that you can try tweeting at 9 or 10 a.m.
+    
+    Due to a lack of data to train a decent classifier, instead of propensity score matching，we found some users to examine if the time of posting influences the retweet count. Here, we pick user 18670. Based on the violin plot below, we find that though user 18670 tweeted very often during the peak hours, the time of the tweet doesn't show effect on the number of retweets he/she gets. So when you already have a lot followers, tweet whenever you want?
 
-{% include non_retweets_hour.html %}
-
-{% include most_tweeted.html %}
+{% include u18670.html %}
 
 - **Do holidays matter?**
 

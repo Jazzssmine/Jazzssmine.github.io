@@ -133,7 +133,7 @@ Now let's move from user perspective to tweet perspective.
   - Retweets of non-egos' tweets
   - Retweets of egos' tweets
   
-  We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides, an obvious observation is that if a tweet is retweeted by the user him/her-self, then it's more likely to be retweeted by others.
+  We can see that most retweets are tweeted from other users rather than egos, which makes sense since egos are only small parts of the whole population. Besides, we can see only a small fraction of tweets are retweeted, so don't pressure yourself. Even if you only got one retweet,  it's still better than most of the tweets!.
 
 {% include sboxplot.html %}
 
@@ -145,7 +145,7 @@ Now let's move from user perspective to tweet perspective.
 
     <center>    <img src="/images/overall_trend.svg" width = "800" />    </center>
 
-    Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing in the number of users. So now it's the best time for you to tweet! 
+    Ah-hah! It turns out that there are more retweets in 2014 than other years, which is probably due to an increasing in the number of users. 
 
   - Days & Hours
 

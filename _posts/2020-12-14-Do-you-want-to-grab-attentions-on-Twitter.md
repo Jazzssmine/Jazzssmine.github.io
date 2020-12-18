@@ -61,7 +61,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
   First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
   <center class="third">
-    <img src="/images/followers-retweet.svg" width="900"/><img src="/images/followees-retweet.svg" width="900"/><img src="/images/friends-retweet.svg" width="900"/>
+    <img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
   </center>
 	
   <font size=6>So what can we learn from above figures?</font>

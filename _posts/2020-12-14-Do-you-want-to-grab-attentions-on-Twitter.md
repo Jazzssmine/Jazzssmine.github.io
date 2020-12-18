@@ -13,7 +13,7 @@ tags:
 
 <div align='center' ><font size='100'><strong>Do you want to grab attentions on Twitter?</strong></font></div>
 
-<div align='center' ><font size='5'><font face="微软雅黑"> A study in Maximizing an Original Post's Retweet Count</font></font></div>
+<div align='center' ><font size='5'><font face="微软雅黑"> A study in Maximising an Original Post's Retweet Count</font></font></div>
 
 
 

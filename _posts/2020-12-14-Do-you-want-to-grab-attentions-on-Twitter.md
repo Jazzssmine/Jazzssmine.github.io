@@ -138,9 +138,11 @@ Now let's move from user perspective to tweet perspective.
   - Retweets of non-egos' tweets
   - Retweets of egos' tweets
 
-    <center>    <img src="/images/boxplot.png" width = "900" />    </center>
+{% include sboxplot.html %}
 
-  We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
+  <center>    <img src="/images/boxplot.png" width = "900" />    </center>
+
+We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
 
 - **How does time affect the number of retweets?**
 

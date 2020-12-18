@@ -119,7 +119,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 
 
-# what have we learn
+# What have we learnt?
 
 What types of Tweet have your found are most effective for getting the attention of a crowd? What about for getting noticed by an individual?
 

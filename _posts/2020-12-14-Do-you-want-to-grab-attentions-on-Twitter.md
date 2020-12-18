@@ -143,7 +143,7 @@ We can see that most retweets are tweeted from users other than egos, which make
 
     First we want to check out how the number of retweets grow with the year.
 
-    <center>    <img src="/images/year.jpg" width = "600" />    </center>
+    <center>    <img src="/images/year.jpg" width = "600" height = "600"/>    </center>
 
     Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing of users. So now it's the best time for you to tweet! 
 
@@ -184,7 +184,7 @@ Based on the analysis above, we reach several simple and straightforward conclus
 
 
 
-<center><font color=grey size=8>What are you waiting for?</font></center><center><img src="/images/twitter.png" /></center>
+<center><font color=grey size=8>What are you waiting for?</font></center><center><img src="/images/twitter.png" width = "50" /></center>
 
 
 

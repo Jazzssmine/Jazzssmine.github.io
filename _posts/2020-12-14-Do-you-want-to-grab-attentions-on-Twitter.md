@@ -64,7 +64,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
     <img src="/images/followers-retweet.svg" width="900"/><img src="/images/followees-retweet.svg" width="900"/><img src="/images/friends-retweet.svg" width="900"/>
   </center>
 	
-  <font size=4>So what can we learn from above figures?</font>
+  <font size=6>So what can we learn from above figures?</font>
 	
   * **Be more interactive and get more followers and friends--Duh!**
 

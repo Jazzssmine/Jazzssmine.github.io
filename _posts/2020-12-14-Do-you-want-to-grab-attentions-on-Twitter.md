@@ -184,7 +184,7 @@ Based on the analysis above, we reach several simple and straightforward conclus
 
 
 
-<center><font color=grey size=8>What are you waiting for?</font></center><center><img src="/images/twitter.png" width = "50" /></center>
+<center><font color=grey size=8>What are you waiting for?</font><img src="/images/twitter.png" width = "50" /></center>
 
 
 

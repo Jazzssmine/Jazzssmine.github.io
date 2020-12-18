@@ -169,8 +169,7 @@ Now let's move from user perspective to tweet perspective.
 
 
 
-# What to do now?
-
+# What to do now?  <img src="/images/twitter.png" width = "50" />
 Based on the analysis above, we reach several simple and straightforward conclusions:
 
 - Get more followers 👯
@@ -181,12 +180,6 @@ Based on the analysis above, we reach several simple and straightforward conclus
 - Time matters! 🕙
 
 - Don't forget to tweet during holidays! 🎄
-
-
-
-<center><font color=grey size=8>What are you waiting for?</font><img src="/images/twitter.png" width = "50" /></center>
-
-
 
 
 

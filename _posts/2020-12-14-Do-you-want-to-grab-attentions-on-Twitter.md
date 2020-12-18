@@ -158,7 +158,7 @@ Ah-hah, it turns out that there are more tweets in 2014 than other years. But th
 
 - **Do holidays matter?**
 
-  During holidays, people usually have more free time to relax themselves and a straightforward guess is that we can gain more retweets during this time. As Christmas is the most widely celebrated holiday in the world, we start exploring how much effect that Xmas has on the number of retweets. Here we only keep counties where Christmas is a national public holiday. 
+  During holidays, people usually have more free time to relax themselves and a guess is that we can gain more retweets during this time. As Christmas is the most widely celebrated holiday in the world, we start exploring how much effect that Xmas has on the number of retweets. Here we only keep counties where Christmas is a national public holiday. 
 
   And our guess is validated, the average number of retweets clearly peaked on Christmas eve! So if you want to get more attentions, it's a good time to tweet during Christmas! 🎄
 
@@ -168,9 +168,21 @@ Ah-hah, it turns out that there are more tweets in 2014 than other years. But th
 
 
 
+# What to do now?
+
+Based on the analysis above, we gain simple and straightforward conclusions:
+
+- Get more followers
+- Use hashtags 
+- When tweeting in different languages, use different strategies
+- Retweet your own tweets
+
+- day
+- Don't forget to tweet during holidays
+
 # What have we learnt?
 
-What types of Tweet have your found are most effective for getting the attention of a crowd? What about for getting noticed by an individual?
+
 
 
 

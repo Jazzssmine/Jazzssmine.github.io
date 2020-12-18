@@ -103,9 +103,11 @@ So what can we learn from above figures?
 
    
 
-   Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+   Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. 
 
 {% include language.html %}
+
+In particular, we can categorize the countries into 3 categories:
 
 - group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
 

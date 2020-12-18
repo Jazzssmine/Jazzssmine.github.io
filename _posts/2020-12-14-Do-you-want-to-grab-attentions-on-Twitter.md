@@ -101,45 +101,57 @@ So what can we learn from above figures?
 
 3. **What language do you speak?**
 
+   
+
+   Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+
 {% include language.html %}
 
-Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
 
-  - group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
-  - group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
-  - group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
+- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
 
-But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
+- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
 
-<center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
+  But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
 
-According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
+  <center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
 
-* The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
+  According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
 
-* The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, <u>if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!</u>
-
-* The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But at the same time they have a low retweet frequqncy, which could be explained as they are more cautious about spreading others' words. Therefore, <u>if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.</u> :P
+  - The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
+  - The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, <u>if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!</u>
+  - The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But at the same time they have a low retweet frequqncy, which could be explained as they are more cautious about spreading others' words. Therefore, <u>if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.</u> :P
 
 <font size=5> II. Tweet Perspective </font>
 
-Now we move from user perspective to tweet perspective. 
+Now let's move from user perspective to tweet perspective. 
 
-1. **What type of tweets get the most attentions?**
+- **What type of tweets get the most attentions?**
 
-   
+    <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
 
-2. **How does time affect the number of retweets?**
+- **How does time affect the number of retweets?**
 
-3. **Do holidays matter?**
+  According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, Why is that? Maybe we can check on the whole dataset. Since the possibilty to get wrong month due to utc_offset is not so great.
+
+  Include year in the plot this time, maybe not all years have the same pattern.
 
 {% include lineplot.html %}
 
-
-
 {% include lineplotusers.html %}
 
-  <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
+
+
+- **Do holidays matter?**
+
+
+
+
+
+
+
+
 
 # What have we learnt?
 

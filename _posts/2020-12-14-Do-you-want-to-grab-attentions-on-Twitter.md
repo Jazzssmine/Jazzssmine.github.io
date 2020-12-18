@@ -57,69 +57,72 @@ That’s what this article is all about. We’ll show you what types of user and
 
 The problem is two-fold. We first explore it from a user perspective -- how does the user profile affect the influence and then from a tweet perspective -- how does the textual content of tweets affect the influence.
 
-* <font size=5> User Perspective </font>
+<font size=5> I. User Perspective </font>
 
-	First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
-	<center class="third">
-		<img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
-	</center>
-	
-	So what can we learn from above figures?
-	
-	**1. Be more interactive and get more followers and friends--Duh!**
+First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+<center class="third">
+	<img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
+</center>
 
-	Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
-    
-    	<center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
+So what can we learn from above figures?
 
-	The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
+**1. Be more interactive and get more followers and friends--Duh!**
 
-    	<center> <img src="/images/colinearity.svg" width = "1200"/></center>
+Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
 
-	Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
+  	<center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
 
-	**2. Always post with hashtags**--**Join trending hashtags on Twitter**
+The result is intuitively true, since Twitter is primarily about making connections and building dialogue. And the last time I checked, it takes at least two people to get a dialogue going : )
 
-	Of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 for now? Here, we pick two users who are representative. 
+  	<center> <img src="/images/colinearity.svg" width = "1200"/></center>
 
-	<center> <img src="/images/super.png" width = "900" height = "600"/></center>
+Admittedly there might be strong multicollinearity among these factors - especially between the number of followers and the number of friends, as presented in the figures above. But our conclusion remains the same: By following more people, being more interactive (getting more friends), you can hopefully get more followers and more retweets. Maybe there's no obvious increase in terms of retweet at the beginning, when you only have a few followers, don't give up and continue to be interactive, as soon as the number of your followers reaches three digits, you can expect to see some significant changes.
 
-	1. user 18670, who seems to be a famous person as she has lots of followers; 
-	2. user 17159 - a user just like us! - with only one follower. But how come she manages to have so mant retweets, even more than those of user 18670?
+**2. Always post with hashtags**--**Join trending hashtags on Twitter**
 
-    	<center> <img src="/images/user18670andUser17159.svg" width = "900" height = "600"/></center>
-    
-	As shown in the figure, both user 17159 and user 18670 gain more retweets when using hastags. And although having less followers, user 17159 can get a fairly large amount of retweets when including hashtags in the tweets.
+Of course we know that with more followers, we can get more attentions. But it's eaiser said than done, for most of the users, how can they get more than 100 followers when they only get less than 10 for now? Here, we pick two users who are representative. 
 
-	From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
+<center> <img src="/images/super.png" width = "900" height = "600"/></center>
+
+1. user 18670, who seems to be a famous person as she has lots of followers; 
+2. user 17159 - a user just like us! - with only one follower. But how come she manages to have so mant retweets, even more than those of user 18670?
+
+<center> <img src="/images/user18670andUser17159.svg" width = "900" height = "600"/></center>
+
+As shown in the figure, both user 17159 and user 18670 gain more retweets when using hastags. And although having less followers, user 17159 can get a fairly large amount of retweets when including hashtags in the tweets.
+
+From above analysis, we realize that, if you already have many followers, you might not need to do much to get retweets; but if you do not, just like user 17159, **it's a smart choice to post with hashtags**, which will make your posts seen by more people!
 
 <center>    <img src="/images/hashtag.png" width = "600" height = "300"/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Hashtags are laser pointers that shine on folks serious about a topic.</div> </center>
 
-   ** What language do you speak? **
-  
+**3.What language do you speak?**
+
 {% include lang.html %}
-	
-    	<center> <img src="/images/lang_stat.png" width = "900"/></center>
-    	Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
-	- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
-	- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
-	- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
-	
-    But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
-    
-    <center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
-    
-    According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
-    
-    * The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
 
-    * The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, <u>if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!</u>
-    
-    * The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But at the same time they have a low retweet frequqncy, which could be explained as they are more cautious about spreading others' words. Therefore, <u>if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.</u> :P
+<center> <img src="/images/lang_stat.png" width = "900"/></center>	
+
+
+
+Looking at the user-language data, we can recognize some patterns in terms of the correlations between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
+- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 
+- group2 (high retweets / statuses; low followers / followees count): <u>Dutch speaker, and Japanese speakers</u>
+- group3 (low retweets / statuses; high followers / followees count): <u>Turkish, Russian and German speakers</u>
+
+But let's not jump into the conclusion but take a closer look! - Distribution should be more precise than a summary statistic.
+
+<center>    <img src="/images/specificLanguages.svg" width = "1200" />    </center>
+
+According to the distribution presented above, the countries can indeed be categorized into 3 categories in terms of users' activity patterns(Here we assume a high retweet count suggests that tweets in a certain language is more likely to be retweeted, and that a certain language speaker will be more likely to retweet what others have posted.):
+
+* The fanatics: Arabic speakers have the highest average number of followers count, and they also have the highest retweets frequency among all langauge user groups.
+
+* The actives: Dutch speakers and japanese speakers share a common point: they are more likely to retweet even though they don’t necessarily have a high number of followers count, which probably means that they really focus on their own followers and keep interacting with them rather than following many people but remain inactive. Therefore, <u>if you are Dutch or Japanese speaker, we would suggest you to posting in these languages as your post might get a higher chance of being retweeted by your people!</u>
+
+* The silent group: Russian speaker and German speakers are the exact opposite of the previous category. Russian speakers and German speakers they have a high average follower count, which means they are active on this social media. But at the same time they have a low retweet frequqncy, which could be explained as they are more cautious about spreading others' words. Therefore, <u>if you are Russian or German speaker, you might like to post in English to change your audiances to those who are more willing to retweet.</u> :P
 
   
 
-* <font size=5> Tweet Perspective </font>
+<font size=5> II. Tweet Perspective </font>
 
 Now we move from 
 

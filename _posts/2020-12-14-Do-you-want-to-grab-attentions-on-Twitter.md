@@ -140,19 +140,23 @@ Now let's move from user perspective to tweet perspective.
 
 {% include sboxplot.html %}
 
-We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
+We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides, an obvious observation is that if a tweet is retweeted by the user him/her-self, then it's more likely to be retweeted by others.
 
 - **How does time affect the number of retweets?**
 
-  Before checking out how tweeting time effects the retweet_count, let's first check out how Twitter usage changes according to time. The orignial paper examined the circadian rhythm of the day and week. So here, we examine the rhythm of the year.
+  - Years & Months
 
-    <center>    <img src="/images/4types.jpg" width = "900" />    </center>
+    First we want to check out how the number of retweets grow with the year.
 
-   According to the plots below, it seems like the usage of Twitter increases from November to next year's Octorber and then suddenly drops to the bottom and start to increase again, and we can see the same trend in number of users.  Why is that? Maybe we can check on the whole dataset. Since we may get wrong month due to a lack of utc_offset. To eliminate these possible errors, we then include year in the plot this time.
+    <center>    <img src="/images/year.jpg" width = "900" />    </center>
 
-  <center>    <img src="/images/usage_year.png" width = "900" />    </center>
+    Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing of users. So now it's the best time for you to tweet! 
 
-  Ah-hah! It turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
+  - Days & Hours
+
+    
+
+    From the above figure, we can tell that the number of most retweeted origianl tweets and replies don't follow the general trend to increase from 5-11h and 12-21h. instead, most of these tweets are posted at 10 a.m. And those posted at 9-11 a.m. received more retweets. The subplot at left_bottom is a line at value 0. This is because the 25th, 50th, and 75th quantile of retweet_count for all these tweets are 0 at every hour every day of the week.
 
 - **Do holidays matter?**
 
@@ -175,8 +179,8 @@ Based on the analysis above, we reach several simple and straightforward conclus
 - When tweeting in different languages, use different strategies
 - Retweet your own tweets
 
-- day
-- Don't forget to tweet during holidays
+- Tweet on a certain time
+- Don't forget to tweet during holidays!
 
 # What have we learnt?
 

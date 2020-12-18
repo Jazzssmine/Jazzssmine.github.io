@@ -138,7 +138,7 @@ Now let's move from user perspective to tweet perspective.
   - Retweets of non-egos' tweets
   - Retweets of egos' tweets
 
-    <center>    <img src="/images/boxplot.png" width = "1200" />    </center>
+    <center>    <img src="/images/boxplot.png" width = "900" />    </center>
 
   We can see that most retweets are tweeted from users other than egos, which makes sense since egos are just small samples of the whole population. Besides,an obvious observation is that if a tweet is retweeted by the sampled egos, then it's more likely to have a higher retweet_count.
 
@@ -152,7 +152,7 @@ Now let's move from user perspective to tweet perspective.
 
 To eliminate possible errors, we then include year in the plot this time.
 
-  <center>    <img src="/images/usage_year.png" width = "1200" />    </center>
+  <center>    <img src="/images/usage_year.png" width = "900" />    </center>
 
 Ah-hah, it turns out that there are more tweets in 2014 than other years. But the authors only colleted data before the November of 2014. And the usage of Twitter increases through out the year, but very likely, it's just because more people start to use Twitter over time. We can check out the growth trend below.
 

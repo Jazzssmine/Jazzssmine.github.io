@@ -145,7 +145,7 @@ Now let's move from user perspective to tweet perspective.
 
     <center>    <img src="/images/year.jpg" width = "600" height = "400"/>    </center>
 
-    Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing of users. So now it's the best time for you to tweet! 
+    Ah-hah! It turns out that there are more retweets in 2014 than other years, maybe due to an increasing in the number of users. So now it's the best time for you to tweet! 
 
   - Days & Hours
 

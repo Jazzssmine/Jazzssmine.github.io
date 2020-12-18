@@ -59,16 +59,16 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
 * <font size=5> User Perspective </font>
 
-  First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
-  <center class="third">
-    <img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
-  </center>
+First, we'd like to gain an intuitive understanding of how the number of retweet co-relates with the numbers of followers, followees and friends.
+<center class="third">
+	<img src="/images/followers-retweet.svg" width="600"/><img src="/images/followees-retweet.svg" width="600"/><img src="/images/friends-retweet.svg" width="600"/>
+</center>
 	
-  <font size=6>So what can we learn from above figures?</font>
+<font size=6>So what can we learn from above figures?</font>
 	
-  * **Be more interactive and get more followers and friends--Duh!**
+	* **Be more interactive and get more followers and friends--Duh!**
 
-    Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
+	Generally speaking, according to above figures, we noticed that the average numbers of retweet count are not very large: mostly are below 10, some are more than 20. And as the number of followers/followees/friends increases, the probability of receiving more retweets increases. To go a step further，we group the tweets by different numbers of followers/followees/friends, studied the corresponding distributions and found that **when number reaches a threshold, (in this case, three digits number) the effect starts to become significant.**
     
     <center> <img src="/images/threefactors.svg" width = "900" height = "600"/></center>
 
@@ -121,6 +121,8 @@ The problem is two-fold. We first explore it from a user perspective -- how does
   
 
 * <font size=5> Tweet Perspective </font>
+
+Now we move from 
 
 {% include lineplot.html %}
 

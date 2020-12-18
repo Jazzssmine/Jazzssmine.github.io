@@ -97,6 +97,7 @@ The problem is two-fold. We first explore it from a user perspective -- how does
 
   * **What language do you speak?**
 
+    {% include lang.html %}
     <center> <img src="/images/lang_stat.png" width = "900"/></center>
     Looking at the user language data, we can recognize some patterns in terms of the correlation between user language and user activeness in terms of retweeting. In particular, we can categorize the countries into 3 categories:
 	- group1 (high retweets / follwers / followees count): <u>Arabic speakers</u> 

@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Yian Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Yian Wang — PhD candidate at UIUC, advised by Hari Sundaram. Research on class unlearning and LLM unlearning." />
+  <meta name="author" content="Yian Wang" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ---------- design tokens ---------- */
+    :root {
+      --paper: #f5f1e8;
+      --paper-deep: #ebe4d3;
+      --ink: #1a1a1a;
+      --ink-soft: #2c2a26;
+      --muted: #6b6357;
+      --muted-soft: #8a8275;
+      --accent: #a44a2e;          /* sepia rust */
+      --accent-soft: #c2755a;
+      --rule: #d8cfb8;
+
+      --serif: 'IBM Plex Sans', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+      --sans:  'IBM Plex Sans', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+      --mono:  'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --hand:  'Caveat', cursive;
+
+      --maxw: 760px;
+      --gutter: 28px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+
+      /* subtle paper texture */
+      background-image:
+        radial-gradient(circle at 18% 22%, rgba(0,0,0,0.018) 0, transparent 40%),
+        radial-gradient(circle at 82% 78%, rgba(164,74,46,0.025) 0, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      transition: color .15s ease;
+    }
+    a:hover { color: var(--ink); }
+
+    /* ---------- layout shell ---------- */
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 56px var(--gutter) 80px;
+      display: grid;
+      grid-template-columns: 180px minmax(0, var(--maxw));
+      gap: 56px;
+    }
+
+    /* ---------- side nav ---------- */
+    .nav {
+      position: sticky;
+      top: 56px;
+      align-self: start;
+      font-size: 14px;
+    }
+    .nav__label {
+      font-family: var(--hand);
+      font-size: 22px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      line-height: 1;
+    }
+    .nav__list { list-style: none; padding: 0; margin: 0; }
+    .nav__list li { margin: 0; }
+    .nav__link {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+      padding: 7px 12px;
+      color: var(--muted);
+      text-decoration: none;
+      border-left: 2px solid transparent;
+      margin-left: -14px;
+      transition: color .15s, border-color .15s, background-color .15s;
+      border-radius: 0 3px 3px 0;
+    }
+    .nav__link:hover {
+      color: var(--ink);
+      background: rgba(164,74,46,0.06);
+    }
+    .nav__link.is-active {
+      color: var(--ink);
+      font-weight: 600;
+      border-left-color: var(--accent);
+    }
+    .nav__num {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted-soft);
+      letter-spacing: 0.5px;
+      min-width: 18px;
+    }
+    .nav__scribble {
+      margin-top: 22px;
+      opacity: 0.7;
+    }
+
+    /* ---------- masthead ---------- */
+    .mast {
+      display: flex;
+      gap: 22px;
+      align-items: flex-end;
+      margin-bottom: 36px;
+      padding-bottom: 28px;
+      border-bottom: 1.5px dashed var(--rule);
+    }
+    .mast__photo {
+      width: 96px;
+      height: 120px;
+      flex-shrink: 0;
+      border-radius: 2px;
+      background:
+        repeating-linear-gradient(45deg, #d8cfb8 0 8px, #e2d9c3 8px 16px);
+      object-fit: cover;
+      border: 1px solid var(--rule);
+    }
+    .mast__name {
+      font-family: var(--sans);
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: 1;
+      margin: 0 0 10px;
+    }
+    .mast__role {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.3px;
+      margin: 0;
+    }
+    .mast__role a { color: var(--muted); text-decoration-color: var(--rule); }
+    .mast__role a:hover { color: var(--accent); }
+
+    /* ---------- sections ---------- */
+    section { margin-bottom: 44px; scroll-margin-top: 40px; }
+
+    .h2 {
+      font-family: var(--sans);
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0 0 4px;
+      letter-spacing: -0.2px;
+    }
+    .h2__num {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 1px;
+      margin-right: 8px;
+      vertical-align: 2px;
+    }
+    .h2__rule {
+      width: 36px;
+      height: 4px;
+      margin: 0 0 18px;
+    }
+
+    p { margin: 0 0 14px; }
+
+    .lead { font-size: 16px; color: var(--ink-soft); }
+
+    /* interests pills */
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+    .pill {
+      font-size: 13px;
+      padding: 5px 12px;
+      border: 1.25px solid var(--ink);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.4);
+    }
+
+    /* news */
+    .news { margin: 0; padding: 0; list-style: none; }
+    .news li {
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 14px;
+      padding: 8px 0;
+      font-size: 15px;
+      border-top: 1px dashed var(--rule);
+    }
+    .news li:first-child { border-top: none; }
+    .news time {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.3px;
+      padding-top: 2px;
+    }
+
+    /* publications */
+    .pub { margin: 0 0 22px; }
+    .pub__title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.35;
+      margin: 0 0 4px;
+    }
+    .pub__title a {
+      color: var(--ink);
+      text-decoration-color: var(--accent-soft);
+    }
+    .pub__title a:hover { color: var(--accent); }
+    .pub__authors { color: var(--muted); font-size: 14px; margin: 0 0 3px; }
+    .pub__authors .me { color: var(--ink); font-weight: 600; }
+    .pub__venue {
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.3px;
+      color: var(--ink);
+      margin: 0;
+    }
+
+    /* contact */
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .contact-pill {
+      font-family: var(--mono);
+      font-size: 12.5px;
+      padding: 6px 12px;
+      border: 1.25px dashed var(--ink);
+      border-radius: 14px;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: 0.3px;
+      transition: background-color .15s, border-style .15s;
+    }
+    .contact-pill:hover {
+      background: var(--ink);
+      color: var(--paper);
+      border-style: solid;
+    }
+
+    .email {
+      margin-top: 18px;
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .email a { color: var(--ink); }
+
+    /* footer */
+    .foot {
+      margin-top: 60px;
+      padding-top: 18px;
+      border-top: 1.5px dashed var(--rule);
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted-soft);
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .foot a { color: var(--muted); text-decoration: none; }
+    .foot a:hover { color: var(--accent); }
+
+    /* mobile */
+    @media (max-width: 760px) {
+      .page {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 32px 22px 60px;
+      }
+      .nav {
+        position: static;
+        padding-bottom: 16px;
+        border-bottom: 1.5px dashed var(--rule);
+      }
+      .nav__list { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+      .nav__link { padding: 4px 0; margin-left: 0; border-left: none; }
+      .nav__link.is-active { border-left: none; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--accent); }
+      .nav__scribble { display: none; }
+      .mast { flex-direction: column; align-items: flex-start; gap: 16px; padding-bottom: 22px; margin-bottom: 28px; }
+      .mast__name { font-size: 36px; }
+      .news li { grid-template-columns: 60px 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- vertical chapter nav -->
+  <aside class="nav" aria-label="Page sections">
+    <div class="nav__label">contents →</div>
+    <ul class="nav__list">
+      <li><a class="nav__link is-active" href="#about"><span class="nav__num">01</span><span>About</span></a></li>
+      <li><a class="nav__link" href="#interests"><span class="nav__num">02</span><span>Interests</span></a></li>
+      <li><a class="nav__link" href="#news"><span class="nav__num">03</span><span>News</span></a></li>
+      <li><a class="nav__link" href="#publications"><span class="nav__num">04</span><span>Publications</span></a></li>
+      <li><a class="nav__link" href="#contact"><span class="nav__num">05</span><span>Contact</span></a></li>
+    </ul>
+    <svg class="nav__scribble" width="48" height="6" viewBox="0 0 48 6" aria-hidden="true">
+      <path d="M 1 3 Q 7 0 13 3 T 25 3 T 37 3 T 47 3" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" />
+    </svg>
+  </aside>
+
+  <!-- main column -->
+  <main>
+    <!-- masthead -->
+    <header class="mast">
+      <!-- replace assets/photo.jpg with a real photo -->
+      <img class="mast__photo" src="assets/photo.png" alt="Yian Wang" onerror="this.style.background='repeating-linear-gradient(45deg,#d8cfb8 0 8px,#e2d9c3 8px 16px)'; this.removeAttribute('src');" />
+      <div>
+        <h1 class="mast__name">Yian Wang</h1>
+        <p class="mast__role">
+          PhD candidate · <a href="https://illinois.edu/" target="_blank" rel="noopener">UIUC</a> Computer Science · advised by <a href="https://sundaram.cs.illinois.edu/" target="_blank" rel="noopener">Hari Sundaram</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- 01 About -->
+    <section id="about">
+      <h2 class="h2"><span class="h2__num">01</span>About</h2>
+      <svg class="h2__rule" viewBox="0 0 36 4" aria-hidden="true"><path d="M 1 2 Q 7 0 13 2 T 25 2 T 35 2" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" /></svg>
+      <p class="lead">
+        I'm a PhD candidate at the <a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois at Urbana-Champaign</a>, advised by Prof. <a href="https://sundaram.cs.illinois.edu/" target="_blank" rel="noopener">Hari Sundaram</a>. I started in Fall 2023.
+      </p>
+      <p>
+        Before UIUC, I earned my B.S. in Physics from the <a href="https://www.ustc.edu.cn/" target="_blank" rel="noopener">University of Science and Technology of China</a> (USTC).
+      </p>
+      <p>
+        My research interests are in <em>class unlearning</em> and <em>LLM unlearning</em> — how models can selectively forget what they shouldn't have learned.
+      </p>
+    </section>
+
+    <!-- 02 Interests -->
+    <section id="interests">
+      <h2 class="h2"><span class="h2__num">02</span>Research Interests</h2>
+      <svg class="h2__rule" viewBox="0 0 36 4" aria-hidden="true"><path d="M 1 2 Q 7 0 13 2 T 25 2 T 35 2" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" /></svg>
+      <ul class="pills">
+        <li class="pill">Class Unlearning</li>
+        <li class="pill">LLM Unlearning</li>
+        <li class="pill">Trust &amp; Safety online</li>
+      </ul>
+    </section>
+
+    <!-- 03 News -->
+    <section id="news">
+      <h2 class="h2"><span class="h2__num">03</span>News</h2>
+      <svg class="h2__rule" viewBox="0 0 36 4" aria-hidden="true"><path d="M 1 2 Q 7 0 13 2 T 25 2 T 35 2" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" /></svg>
+      <ul class="news">
+        <li><time>2025·09</time><span>EMNLP 2025 paper on LLM detoxification accepted.</span></li>
+        <li><time>2025·05</time><span>CSCW 2025 paper on antisocial behavior accepted.</span></li>
+        <li><time>2023·08</time><span>Started PhD at UIUC with Prof. Hari Sundaram.</span></li>
+      </ul>
+    </section>
+
+    <!-- 04 Publications -->
+    <section id="publications">
+      <h2 class="h2"><span class="h2__num">04</span>Publications</h2>
+      <svg class="h2__rule" viewBox="0 0 36 4" aria-hidden="true"><path d="M 1 2 Q 7 0 13 2 T 25 2 T 35 2" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" /></svg>
+
+      <article class="pub">
+        <h3 class="pub__title"><a href="https://arxiv.org/" target="_blank" rel="noopener">The Chilling: Identifying Strategic Antisocial Behavior Online and Examining the Impact on Journalists</a></h3>
+        <p class="pub__authors"><span class="me">Yian Wang</span>, Mukhilshankar Umashankar, Eshwar Chandrasekharan, Hari Sundaram</p>
+        <p class="pub__venue">CSCW 2025</p>
+      </article>
+
+      <article class="pub">
+        <h3 class="pub__title"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=B7SkrRgAAAAJ&citation_for_view=B7SkrRgAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener">Breaking Bad Tokens: Detoxification of LLMs Using Sparse Autoencoders</a></h3>
+        <p class="pub__authors">Agam Goyal, Vedant Rathi, William Yeh, <span class="me">Yian Wang</span>, Yuen Chen, Hari Sundaram</p>
+        <p class="pub__venue">EMNLP 2025</p>
+      </article>
+
+      <article class="pub">
+        <h3 class="pub__title"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=B7SkrRgAAAAJ&citation_for_view=B7SkrRgAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">iFiG: Individually Fair Multi-view Graph Clustering</a></h3>
+        <p class="pub__authors"><span class="me">Yian Wang</span>, Jian Kang, Yinglong Xia, Jiebo Luo, Hanghang Tong</p>
+        <p class="pub__venue">IEEE BigData 2022</p>
+      </article>
+
+      <article class="pub">
+        <h3 class="pub__title"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=ZnO3WmAAAAAJ&citation_for_view=ZnO3WmAAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">Hybrid neural recommendation with joint deep representation learning of ratings and reviews</a></h3>
+        <p class="pub__authors">Hongtao Liu, <span class="me">Yian Wang</span>, Qiyao Peng, Fangzhao Wu, Lin Gan, Lin Pan, Pengfei Jiao</p>
+        <p class="pub__venue">Neurocomputing 374, 77–85 · 2020</p>
+      </article>
+    </section>
+
+    <!-- 05 Contact -->
+    <section id="contact">
+      <h2 class="h2"><span class="h2__num">05</span>Contact</h2>
+      <svg class="h2__rule" viewBox="0 0 36 4" aria-hidden="true"><path d="M 1 2 Q 7 0 13 2 T 25 2 T 35 2" stroke="#a44a2e" stroke-width="1.4" fill="none" stroke-linecap="round" /></svg>
+      <div class="contact-grid">
+        <a class="contact-pill" href="mailto:yian3@illinois.edu">email</a>
+        <a class="contact-pill" href="https://scholar.google.com/citations?user=B7SkrRgAAAAJ&hl=en" target="_blank" rel="noopener">scholar</a>
+        <a class="contact-pill" href="https://github.com/" target="_blank" rel="noopener">github</a>
+        <a class="contact-pill" href="https://twitter.com/" target="_blank" rel="noopener">twitter</a>
+        <a class="contact-pill" href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin</a>
+        <a class="contact-pill" href="assets/cv.pdf" target="_blank" rel="noopener">cv</a>
+      </div>
+      <p class="email">→ <a href="mailto:yian3@illinois.edu">yian3@illinois.edu</a></p>
+    </section>
+
+    <footer class="foot">
+      <span>© Yian Wang · 2026</span>
+      <span>built with html + css · <a href="https://github.com/" target="_blank" rel="noopener">source</a></span>
+    </footer>
+  </main>
+</div>
+
+<script>
+  // active-section highlight in side nav
+  (function () {
+    var links = document.querySelectorAll('.nav__link');
+    var sections = Array.from(links).map(function (a) {
+      return document.querySelector(a.getAttribute('href'));
+    }).filter(Boolean);
+
+    function setActive(id) {
+      links.forEach(function (a) {
+        a.classList.toggle('is-active', a.getAttribute('href') === '#' + id);
+      });
+    }
+
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        // pick the entry closest to the top that is intersecting
+        var visible = entries.filter(function (e) { return e.isIntersecting; });
+        if (visible.length === 0) return;
+        visible.sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+        setActive(visible[0].target.id);
+      }, { rootMargin: '-20% 0px -60% 0px', threshold: 0 });
+      sections.forEach(function (s) { io.observe(s); });
+    }
+
+    // smooth scroll handled by CSS; just keep the click highlight responsive
+    links.forEach(function (a) {
+      a.addEventListener('click', function () {
+        setActive(a.getAttribute('href').slice(1));
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

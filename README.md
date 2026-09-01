@@ -8,7 +8,7 @@ Personal site for Yian Wang. Single static HTML file, no build step.
 site/
 ├── index.html        ← the whole site
 ├── assets/
-│   ├── photo.png     ← (add your photo here, ~400×500 works well; rename to photo.jpg and update index.html if you prefer JPG)
+│   ├── photo.jpeg    ← profile photo
 │   └── cv.pdf        ← (add your CV here)
 └── README.md
 ```
